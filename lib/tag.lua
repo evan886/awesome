@@ -15,7 +15,7 @@ local menubar = require("menubar")
 -- Define a tag table which hold all screen tags.
 tags = {
     -- www / dev / im / dev / dev / dev / media / util / nautilus
-    names = {'`:T', "1:C", "3:IM", "q:D", "w:D", "e:M", "a:U", "s:M"},
+    names = {'`:workstation', "2:WEB", "3:windows", "q:D", "w:D", "e:M", "a:U", "s:M"},
     layouts = {
         awful.layout.suit.tile,
         awful.layout.suit.tile,

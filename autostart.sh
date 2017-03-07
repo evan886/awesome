@@ -16,10 +16,12 @@
 #dropbox start
 
 # nm-applet
-#nm-applet &
+nm-applet &
+
+synapse -s &
 
 # trayer
-#trayer --edge top --align right --SetDockType true --SetPartialStrut true --expand true --widthtype pixel --width 128 --transparent true --alpha 0 --tint 0x000000 --height 18 &
+trayer --edge top --align right --SetDockType true --SetPartialStrut true --expand true --widthtype pixel --width 128 --transparent true --alpha 0 --tint 0x000000 --height 18 &
 
 # ssh-proxy
 #ssh user@vps.com -ND 7070 &

@@ -8,6 +8,7 @@ git commit -m  "`date`"  #"dbbak and cutnglog"
 git push  origin master 
 #git push 
 
+# rsync -avz /home/evan/.config/awesome/ /home/evan/github/awesome/
 
 #有时记得要删除
 # 位于分支 master
