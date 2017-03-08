@@ -1,3 +1,10 @@
+# evan 的 Awesome 配置#
+改了一下  主配置文件用系统自带的，然后改了一下下   和alswl哥的有点差别了
+
+
+mod+1 -- 9  切换 tag 
+
+
 # alswl 的 Awesome 配置#
 
 ## 厉害的地方 ##
