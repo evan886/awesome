@@ -540,24 +540,7 @@ client.connect_signal("request::titlebars", function(c)
 end)
 
 -- autorun app by evan
-autorun = true
-autorunApps = 
-{ 
-    "nm-applet &",
---    "fcitx",
---    "dbus-launch gnome-do",
-    "synapse -s &",
---    "/opt/qq2012/wineapp/qq/qq.sh",
---    "dbus-launch gnome-do",
 
-
-}
-
-if autorun then
-    for app = 1, #autorunApps do
-        awful.util.spawn_with_shell(autorunApps[app])
-    end
-end
 -- Enable sloppy focus, so that focus follows mouse.
 client.connect_signal("mouse::enter", function(c)
     if awful.layout.get(c.screen) ~= awful.layout.suit.magnifier
