@@ -1,3 +1,13 @@
+
+#by evan
+
+自启动是在 rc.lua
+
+
+
+
+
+
 # alswl 的 Awesome 配置#
 
 ## 厉害的地方 ##
